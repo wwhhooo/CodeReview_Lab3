@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<header_documentation>
+    <file_info>
+        <filename>converter.h</filename>
+        <purpose>Заголовочный файл для функций конвертации кодировок</purpose>
+        <namespace>std</namespace>
+    </file_info>
+
+    <functions>
+        <function>
+            <name>utf8_to_wstring</name>
+            <description>Конвертирует UTF-8 строку в широкую строку</description>
+            <parameters>
+                <parameter>
+                    <name>str</name>
+                    <type>const string&amp;</type>
+                </parameter>
+            </parameters>
+            <return_type>wstring</return_type>
+        </function>
+
+        <function>
+            <name>wstring_to_utf8</name>
+            <description>Конвертирует широкую строку в UTF-8</description>
+            <parameters>
+                <parameter>
+                    <name>str</name>
+                    <type>const wstring&amp;</type>
+                </parameter>
+            </parameters>
+            <return_type>string</return_type>
+        </function>
+    </functions>
+</header_documentation>

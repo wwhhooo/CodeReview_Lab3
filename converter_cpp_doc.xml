@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<implementation_documentation>
+    <file_info>
+        <filename>converter.cpp</filename>
+        <purpose>Реализация функций конвертации</purpose>
+        <namespace>std</namespace>
+    </file_info>
+
+    <includes>
+        <include>converter.h</include>
+    </includes>
+
+    <functions_implementation>
+        <function>
+            <name>utf8_to_wstring</name>
+            <implementation_details>
+                Использует wstring_convert с codecvt_utf8<wchar_t>
+            </implementation_details>
+        </function>
+    </functions_implementation>
+</implementation_documentation>

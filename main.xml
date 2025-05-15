@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main_program_documentation>
+    <file_info>
+        <filename>morse_main.cpp</filename>
+        <purpose>Основная программа перевода в азбуку Морзе</purpose>
+        <namespace>std</namespace>
+    </file_info>
+
+    <includes>
+        <include>iostream</include>
+        <include>map</include>
+        <include>converter.h</include>
+    </includes>
+
+    <variables>
+        <variable>
+            <name>morse</name>
+            <type>map&lt;string, string&gt;</type>
+            <description>Словарь русских букв и их кодов Морзе</description>
+        </variable>
+    </variables>
+
+    <workflow>
+        <step>Инициализация UTF-8 локали</step>
+        <step>Ввод сообщения</step>
+        <step>Конвертация ввода</step>
+        <step>Проверка на пустую строку</step>
+        <step>Перевод в азбуку Морзе</step>
+        <step>Вывод результата</step>
+    </workflow>
+
+    <error_handling>
+        <error>Пустая строка</error>
+        <error>Неизвестные символы</error>
+    </error_handling>
+</main_program_documentation>
